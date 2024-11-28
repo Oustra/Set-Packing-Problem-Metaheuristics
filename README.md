@@ -52,13 +52,13 @@ This script provides example usage for solving SPP instances using Greedy constr
 #### Load the file:
     include("livrableEI1.jl")
 
-- Solve the problem:
-    resoudreSPP("pb_100rnd0100.dat")
-    resoudreSPP() # Default instance: "pb_100rnd0100.dat"
+#### Solve the problem:
+   - resoudreSPP("pb_100rnd0100.dat")
+   - resoudreSPP() # Default instance: "pb_100rnd0100.dat"
 
-- Run an experiment:
-    experimentationSPP()
-    # On instances ["didactic.txt", "pb_100rnd0100.dat", "pb_200rnd0100.dat", "pb_500rnd1500.dat", "pb_1000rnd0700.dat", "pb_2000rnd0700.dat"]
+#### Run an experiment:
+   - experimentationSPP()
+   - On instances ["didactic.txt", "pb_100rnd0100.dat", "pb_200rnd0100.dat", "pb_500rnd1500.dat", "pb_1000rnd0700.dat", "pb_2000rnd0700.dat"]
     
 ### GRASP Metaheuristic
 
