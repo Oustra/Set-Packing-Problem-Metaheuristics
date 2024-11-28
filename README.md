@@ -79,11 +79,11 @@ Example usage (experiment.jl) for running an experimental protocol on a simulate
 Example usage (experiment2.jl) for running an experimental protocol on a simulated reactive GRASP-SPP:
 
 ####  Load the file:
-   include("experiment2.jl")
+   - include("experiment2.jl")
 
 #### Run a simulation:
-   simulation() # Default instance: "pb_100rnd0100.dat"
-   # On the instance "pb_100rnd0100.dat"
+   - simulation() # Default instance: "pb_100rnd0100.dat"
+   - On the instance "pb_100rnd0100.dat"
 
 #### Plot results are stored in the directory res/ReactiveGRASP/.
 
@@ -93,11 +93,11 @@ Example usage (experiment2.jl) for running an experimental protocol on a simulat
 Example usage (experiment3.jl) for running an experimental protocol on a simulated ACO-SPP:
 
 #### Load the file:
-  include("experiment3.jl")
+  - include("experiment3.jl")
 
 #### Run a simulation:
-  simulation() # Default instance: "pb_100rnd0100.dat"
-  # On the instance "pb_100rnd0100.dat"
+  - simulation() # Default instance: "pb_100rnd0100.dat"
+  - On the instance "pb_100rnd0100.dat"
 
 #### Plot results are stored in the directory res/ACO/.
 
